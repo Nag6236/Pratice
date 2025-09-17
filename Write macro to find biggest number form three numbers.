@@ -1,0 +1,15 @@
+# Write a prgm to find biggest number form three numbers.
+#include <stdio.h>
+#define BUGNUM(a, b, c) ((a>b)?((a>c)?a:c):((b>c)?b:c))
+int main()
+{
+    printf("Biggest number is = %d", BUGNUM(6 , 8, 4));
+    return 0;
+}
+
+#output
+#Biggest number is = 8
+
+#### prgm end ######
+
+
