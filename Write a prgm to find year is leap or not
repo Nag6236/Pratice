@@ -1,0 +1,19 @@
+int main()
+{
+   int year;
+   printf("Enter the year : ");
+   scanf("%d", &year);
+   if(year%400 == 0 || year%4 == 0 && year%100 !=0)
+   {
+       printf("Leaf year\n");
+   }
+   else
+   {
+       printf("Not leaf year\n");
+   }
+    return 0;
+}
+
+#Output:
+# Enter the year : 1996
+# Leaf year
